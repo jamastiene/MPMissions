@@ -93,10 +93,11 @@ if (!isDedicated) then {
 	waitUntil {!isNil "dayz_loadScreenMsg"};
 	dayz_loadScreenMsg = (localize "STR_AUTHENTICATING");
 	
-	//Run the player monitor
-	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
-	_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";	
-	
+	 //Run the player monitor
+    _id = player addEventHandler ["Respawn", {_id = [] spawn player_death; _nul = [] execVM "camera_init.sqf";}];
+    _playerMonitor =    [] execVM "\z\addons\dayz_code\system\player_monitor.sqf";
+    _nul = [] execVM "camera_init.sqf";  
+ 
 	//anti Hack
 	//[] execVM "\z\addons\dayz_code\system\antihack.sqf";
 
