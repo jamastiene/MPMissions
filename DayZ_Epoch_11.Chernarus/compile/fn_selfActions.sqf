@@ -574,6 +574,46 @@ if (!isNull cursorTarget && !_inVehicle && !_isPZombie && (player distance curso
 	
 	
 
+//Allow owner to change Door code
+
+if((_isDestructable || _cursorTarget isKindOf "Land_DZE_WoodDoorLocked_Base" || _cursorTarget isKindOf "CinderWallDoorLocked_DZ_Base") && (DZE_Lock_Door == _ownerID)) then {
+		if ((s_player_lastTarget select 1) != _cursorTarget) then {
+			if (s_player_ckc > 0) then {	
+				player removeAction s_player_ckc;
+				s_player_ckc = -1;
+			};
+		};
+
+		if (s_player_ckc < 0) then {
+			s_player_lastTarget set [1,_cursorTarget];	
+		        s_player_ckc = player addaction["Set new Code", "ckc\ckc_startUI.sqf","",0,false,true,"", ""];
+		};
+	} else {
+		player removeAction s_player_ckc;
+		s_player_ckc = -1;
+	};
+
+
+
+//Allow owner to change vault code
+
+_unlockedVault = ["VaultStorage"];
+
+	if(typeOf(cursortarget) in _unlockedVault && _ownerID != "0" && (player distance _cursorTarget < 2)) then {
+	
+	if (s_player_Safe_ckc < 0) then {
+	if ((typeOf(cursortarget) == "VaultStorage") &&(_ownerID == dayz_combination || _ownerID == dayz_playerUID)  ) then {
+     
+				
+			s_player_Safe_ckc = player addaction["Set new Code", "ckc\ckc_startSafeUI.sqf","",1,false,true,"", ""];
+		};
+		};
+	} else {
+		player removeAction s_player_Safe_ckc;
+		s_player_Safe_ckc = -1;
+
+	};
+
 	//Allow owner to pack vault
 	if(_typeOfCursorTarget in DZE_UnLockedStorage && _ownerID != "0" && (player distance _cursorTarget < 3)) then {
 
@@ -961,6 +1001,10 @@ if (!isNull cursorTarget && !_inVehicle && !_isPZombie && (player distance curso
 	s_player_maint_build = -1;
 	player removeAction s_player_downgrade_build;
 	s_player_downgrade_build = -1;
+	 player removeAction s_player_ckc;
+	s_player_ckc = -1;
+	player removeAction s_player_Safe_ckc;
+    s_player_Safe_ckc = -1;
 	player removeAction s_player_towing;
 	s_player_towing = -1;
 	player removeAction s_player_fuelauto;
