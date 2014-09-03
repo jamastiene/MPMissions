@@ -1211,7 +1211,6 @@ class Mission
 		{
 
 
-
 			position[]={20386.512,0.16708441,-5038.5723};
 			name="respawn_west";
 			type="Empty";
@@ -1252,7 +1251,6 @@ class Mission
 
 
 
-
 			name="Tradercitybash";
 			text="Trader City Bash";
 			type="mil_circle";
@@ -1261,9 +1259,6 @@ class Mission
 		class Item8
 		{
 			position[]={11469.787,317.32358,11356.751};
-
-
-
 
 
 
@@ -1282,7 +1277,6 @@ class Mission
 
 
 
-
 			name="Tradercitystary";
 			text="Trader City Stary";
 			type="mil_circle";
@@ -1291,7 +1285,6 @@ class Mission
 		class Item10
 		{
 			position[]={1100.69,0,2844.99};
-
 
 
 			name="boatsnwholesale_1";
@@ -1303,7 +1296,6 @@ class Mission
 		{
 			position[]={13247.175,7.9455967,6076.4395};
 			name="boatsnwholesale_1_1";
-
 
 
 			text="Wholesaler";
@@ -1318,15 +1310,12 @@ class Mission
 			type="mil_dot";
 
 
-
 			colorName="ColorBlue";
 		};
 		class Item13
 		{
 			position[]={8385.834,1.6642252,2368.8264};
 			name="Boat Dealer";
-
-
 
 
 
@@ -1343,7 +1332,6 @@ class Mission
 			position[]={12945.273,209.10101,12751.496};
 
 
-
 			name="HeroVendor";
 			text="Hero Vendor";
 			type="mil_dot";
@@ -1352,8 +1340,6 @@ class Mission
 		class Item15
 		{
 			position[]={13093.446,0.42457402,8241.5625};
-
-
 
 
 
@@ -1369,7 +1355,6 @@ class Mission
 			name="BanditVendor";
 			text="Bandit Vendor";
 			type="mil_dot";
-
 
 
 			colorName="ColorRed";
