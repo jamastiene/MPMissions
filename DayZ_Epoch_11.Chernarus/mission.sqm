@@ -46,7 +46,8 @@ class Mission
 		"CYBP_Camels_Config",
 		"nissan_350z",
 		"ussr_cheytac",
-		"bb_mercenary"
+		"bb_mercenary",
+		"glt_bh_wreck"
 	};
 	addOnsAuto[]=
 	{
