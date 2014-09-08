@@ -6,8 +6,8 @@ class Category_569 {
 	};
 	class HMMWV_M1151_M2_CZ_DES_EP1_DZE {
 		type = "trade_any_vehicle";
-		buy[] ={200000,"Coins"};
-		sell[] ={100000,"Coins"};
+		buy[] ={300000,"Coins"};
+		sell[] ={150000,"Coins"};
 	};
 	class LandRover_Special_CZ_EP1_DZE {
 		type = "trade_any_vehicle";

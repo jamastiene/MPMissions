@@ -1,8 +1,8 @@
 class Category_512 {
 		class CH_47F_EP1_DZE {
 		type = "trade_any_vehicle";
-		buy[] ={300000,"Coins"};
-		sell[] ={150000,"Coins"};
+		buy[] ={400000,"Coins"};
+		sell[] ={200000,"Coins"};
 	};
 	class UH1H_DZE {
 		type = "trade_any_vehicle";

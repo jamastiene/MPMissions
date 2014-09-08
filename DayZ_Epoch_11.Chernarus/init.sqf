@@ -11,7 +11,6 @@ dayZ_instance =	11;					//The instance
 dayzHiveRequest = [];
 initialized = false;
 dayz_previousID = 0;
-
 //disable greeting menu 
 player setVariable ["BIS_noCoreConversations", true];
 //disable radio messages to be heard and shown in the left lower corner of the screen
@@ -23,8 +22,8 @@ enableSentences false;
 spawnShoremode = 1; // Default = 1 (on shore)
 spawnArea= 1500; // Default = 1500
 
-MaxVehicleLimit = 500; // Default = 50
-MaxDynamicDebris = 100; // Default = 100
+MaxVehicleLimit = 300; // Default = 50
+MaxDynamicDebris = 150; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
 dayz_maxLocalZombies = 30; // Default = 30 
 DZE_DeathMsgSide = true;  //Kill message
@@ -38,16 +37,8 @@ DZE_ConfigTrader = true;
 DZE_PlayerZed = false;
 DZE_AsReMix_PLAYER_HUD = true; //Open Custom 	AsReMix Player HUD
 dayz_paraSpawn = false;
-MaxAmmoBoxes = 500; 
-MaxMineVeins = 50;
-DZE_StaticConstructionCount = 1;
-DZE_vehicleAmmo = 0; 
-DZE_ForceNameTagsOff 
-DZE_HumanityTargetDistance = 25 
-MaxHeliCrashes= 400;
-DZE_R3F_WEIGHT = true;
 //dayZ_UseSteamID = false;
-setViewDistance 2500;
+setViewDistance 3000;
 setTerrainGrid 20;
  
 dayz_paraSpawn = false;

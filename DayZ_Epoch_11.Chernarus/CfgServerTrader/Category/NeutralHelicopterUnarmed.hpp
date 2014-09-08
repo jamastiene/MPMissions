@@ -1,18 +1,18 @@
 class Category_519 {
 	class Mi17_Civilian_DZ {
 		type = "trade_any_vehicle";
-		buy[] ={40000,"Coins"};
-		sell[] ={20000,"Coins"};
+		buy[] ={63000,"Coins"};
+		sell[] ={31000,"Coins"};
 	};
 	class AH6X_DZ {
 		type = "trade_any_vehicle";
-		buy[] ={20000,"Coins"};
-		sell[] ={10000,"Coins"};
+		buy[] ={60000,"Coins"};
+		sell[] ={30000,"Coins"};
 	};
 	class MH6J_DZ {
 		type = "trade_any_vehicle";
-		buy[] ={30000,"Coins"};
-		sell[] ={15000,"Coins"};
+		buy[] ={80000,"Coins"};
+		sell[] ={40000,"Coins"};
 	};
 
 	class CSJ_GyroC {
@@ -32,12 +32,12 @@ class Category_519 {
 	};
 	class BAF_Merlin_DZE {
 		type = "trade_any_vehicle";
-		buy[] ={100000,"Coins"};
-		sell[] ={50000,"Coins"};
+		buy[] ={200000,"Coins"};
+		sell[] ={100000,"Coins"};
 	};
 	class CH53_DZE {
 		type = "trade_any_vehicle";
-		buy[] ={150000,"Coins"};
-		sell[] ={75000,"Coins"};
+		buy[] ={200000,"Coins"};
+		sell[] ={100000,"Coins"};
 	};
 };

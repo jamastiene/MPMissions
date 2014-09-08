@@ -1,8 +1,8 @@
 class Category_479 {
 	class ArmoredSUV_PMC_DZE {
 		type = "trade_any_vehicle";
-		buy[] ={300000,"Coins"};
-		sell[] ={150000,"Coins"};
+		buy[] ={200000,"Coins"};
+		sell[] ={100000,"Coins"};
 	};
 	class Pickup_PK_TK_GUE_EP1_DZE {
 		type = "trade_any_vehicle";
