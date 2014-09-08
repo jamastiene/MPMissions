@@ -23,8 +23,8 @@ enableSentences false;
 spawnShoremode = 1; // Default = 1 (on shore)
 spawnArea= 1500; // Default = 1500
 
-MaxVehicleLimit = 500; // Default = 50
-MaxDynamicDebris = 100; // Default = 100
+MaxVehicleLimit = 300; // Default = 50
+MaxDynamicDebris = 150; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
 dayz_maxLocalZombies = 30; // Default = 30 
 DZE_DeathMsgSide = true;  //Kill message
