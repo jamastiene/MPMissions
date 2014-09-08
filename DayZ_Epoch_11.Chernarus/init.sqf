@@ -38,6 +38,12 @@ DZE_ConfigTrader = true;
 DZE_PlayerZed = false;
 DZE_AsReMix_PLAYER_HUD = true; //Open Custom 	AsReMix Player HUD
 dayz_paraSpawn = false;
+MaxAmmoBoxes = 50; 
+MaxMineVeins = 50;
+DZE_StaticConstructionCount = 1;
+DZE_vehicleAmmo = 0;
+DZE_HumanityTargetDistance = 25 
+MaxHeliCrashes= 20;
 //dayZ_UseSteamID = false;
 setViewDistance 2500;
 setTerrainGrid 20;
