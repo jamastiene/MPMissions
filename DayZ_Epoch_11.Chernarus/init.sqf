@@ -41,14 +41,12 @@ dayz_paraSpawn = false;
 MaxAmmoBoxes = 50; 
 MaxMineVeins = 50;
 DZE_StaticConstructionCount = 1;
-DZE_vehicleAmmo = 0;
-DZE_HumanityTargetDistance = 25 
+DZE_vehicleAmmo = 0; 
+DZE_HumanityTargetDistance = 25;
 MaxHeliCrashes= 20;
 //dayZ_UseSteamID = false;
 setViewDistance 2500;
 setTerrainGrid 20;
- 
-dayz_paraSpawn = false;
 /* Default Loadout */
 DefaultMagazines = ["ItemBandage","ItemBandage","17Rnd_9x19_glock17","17Rnd_9x19_glock17","ItemPainkiller"];
 DefaultWeapons = ["glock17_EP1","ItemFlashlight","ItemMap","ItemToolbox"];
