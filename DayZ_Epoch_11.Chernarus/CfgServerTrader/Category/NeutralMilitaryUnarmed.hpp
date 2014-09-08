@@ -39,6 +39,11 @@ class Category_658 {
 		buy[] ={20000,"Coins"};
 		sell[] ={10000,"Coins"};
 	};
+	class F35B {
+		type = "trade_any_vehicle";
+		buy[] ={20000,"Coins"};
+		sell[] ={10000,"Coins"};
+	};
 };
 class Category_598 {
 	class HMMWV_M1035_DES_EP1 {
