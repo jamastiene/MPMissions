@@ -9,11 +9,6 @@ class Category_517 {
 		buy[] ={500000,"Coins"};
 		sell[] ={200000,"Coins"};
 	};
-	class F35B {
-		type = "trade_any_vehicle";
-		buy[] ={100000,"Coins"};
-		sell[] ={50000,"Coins"};
-	};
 	class MV22_DZ {
 		type = "trade_any_vehicle";
 		buy[] ={100000,"Coins"};
