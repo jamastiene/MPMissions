@@ -128,3 +128,5 @@ if (DZE_AsReMix_PLAYER_HUD) then {
 	execVM "addons\playerhud\playerHud.sqf"//AsReMix Player HUD
 };
 };
+// Lift
+_logistic = execVM "=BTC=_Logistic\=BTC=_Logistic_Init.sqf";
