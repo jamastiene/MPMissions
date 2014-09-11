@@ -1373,7 +1373,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebash";
 			expCond="(player distance zonebash) < 100;";
-			expActiv="TitleText[""Now entering trader city Bash"",""PLAIN DOWN""]; canbuild = false; insafezone = true;";
+			expActiv="TitleText[""Now entering trader city Bash"",""PLAIN DOWN""]; canbuild = false; insafezone = false;";
 			expDesactiv="TitleText[""Now leaving trader city Bash"",""PLAIN DOWN""]; canbuild = true; insafezone = false;";
 			class Effects
 			{
@@ -1403,7 +1403,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonestary";
 			expCond="(player distance zonestary) < 100;";
-			expActiv="TitleText[""Now entering trader city Stary"",""PLAIN DOWN""]; canbuild = false; insafezone = true;";
+			expActiv="TitleText[""Now entering trader city Stary"",""PLAIN DOWN""]; canbuild = false; insafezone = false;";
 			expDesactiv="TitleText[""Now leaving trader city Stary"",""PLAIN DOWN""]; canbuild = true; insafezone = false;";
 			class Effects
 			{
@@ -1434,7 +1434,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebandit";
 			expCond="(player distance zonebandit) < 100;";
-			expActiv="TitleText[""Now entering Bandit trader area"",""PLAIN DOWN""]; canbuild = false; insafezone = true;";
+			expActiv="TitleText[""Now entering Bandit trader area"",""PLAIN DOWN""]; canbuild = false; insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Bandit trader area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1449,7 +1449,7 @@ class Mission
 			age="UNKNOWN";
 			name="zoneaircraft";
 			expCond="(player distance zoneaircraft) < 100;";
-			expActiv="TitleText[""Now entering Aircraft trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Aircraft trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Aircraft trader area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1464,7 +1464,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonewholesale1";
 			expCond="(player distance zonewholesale1) < 50;";
-			expActiv="TitleText[""Now entering Wholesale trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Wholesale trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Wholesale trader area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1479,7 +1479,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonewholesale2";
 			expCond="(player distance zonewholesale2) < 50;";
-			expActiv="TitleText[""Now entering Wholesale trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Wholesale trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Wholesale trader area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1495,7 +1495,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebank1";
 			expCond="(player distance zonebank1) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1511,7 +1511,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebank2";
 			expCond="(player distance zonebank2) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1527,7 +1527,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebank3";
 			expCond="(player distance zonebank3) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1542,7 +1542,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebank4";
 			expCond="(player distance zonebank4) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1557,7 +1557,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebank5";
 			expCond="(player distance zonebank5) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1573,7 +1573,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebank6";
 			expCond="(player distance zonebank6) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
@@ -1589,7 +1589,7 @@ class Mission
 			age="UNKNOWN";
 			name="zonebank25";
 			expCond="(player distance zonebank25) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
+			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = false;";
 			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
 			class Effects
 			{
