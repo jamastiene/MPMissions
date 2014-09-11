@@ -49,6 +49,41 @@ class Category_662 {
 		buy[] ={6000,"Coins"};
 		sell[] ={3000,"Coins"};
         };
+    class ItemComboLock {
+		type = "trade_items";
+		buy[] ={10000,"Coins"};
+		sell[] ={5000,"Coins"};
+	};
+      class ItemLockbox {
+	        type = "trade_items";
+		buy[] ={40000,"Coins"};
+		sell[] ={20000,"Coins"};
+	};
+	 class ChainSaw {
+	    type = "trade_weapons";
+		buy[] ={20000,"Coins"};
+		sell[] ={10000,"Coins"};
+	};
+		 class ChainSawB {
+	    type = "trade_weapons";
+		buy[] ={20000,"Coins"};
+		sell[] ={10000,"Coins"};
+	};
+		 class ChainSawG {
+	    type = "trade_weapons";
+		buy[] ={20000,"Coins"};
+		sell[] ={10000,"Coins"};
+	};
+		 class ChainSawP {
+	    type = "trade_weapons";
+		buy[] ={20000,"Coins"};
+		sell[] ={10000,"Coins"};
+	};
+		 class ChainSawR {
+	    type = "trade_weapons";
+		buy[] ={20000,"Coins"};
+		sell[] ={10000,"Coins"};
+	};
 	 class ItemMixOil {
 	    type = "trade_items";
 		buy[] ={5000,"Coins"};

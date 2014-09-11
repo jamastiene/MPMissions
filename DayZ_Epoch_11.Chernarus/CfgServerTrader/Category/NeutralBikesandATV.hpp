@@ -4,6 +4,11 @@ class Category_650 {
 		buy[] ={120,"Coins"};
 		sell[] ={60,"Coins"};
 	};
+	class F35B {
+		type = "trade_any_vehicle";
+		buy[] ={20000,"Coins"};
+		sell[] ={10000,"Coins"};
+	};
 	class Old_bike_TK_INS_EP1 {
 		type = "trade_any_bicycle";
 		buy[] ={120,"Coins"};
