@@ -24,33 +24,44 @@ spawnShoremode = 1; // Default = 1 (on shore)
 spawnArea= 1500; // Default = 1500
 
 MaxVehicleLimit = 300; // Default = 50
-MaxDynamicDebris = 500; // Default = 100
+MaxDynamicDebris = 150; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
 dayz_maxLocalZombies = 30; // Default = 30 
-
+DZE_DeathMsgSide = true;  //Kill message
+DZE_requireplot = 0;  //Pas de plot pole pour la construction
+DZE_GodModeBase = true;  //Script god mod des bases
+DZE_BuildingLimit = 3000; 
+DZE_MissionLootTable = true; //Custom Loot Tables
+DZE_SelfTransfuse = true;  //Self BB
+DZE_HeliLift = false;  //LIFT
+DZE_ConfigTrader = true;
+DZE_PlayerZed = false;
+DZE_AsReMix_PLAYER_HUD = true; //Open Custom 	AsReMix Player HUD
 dayz_paraSpawn = false;
-
+//dayZ_UseSteamID = false;
+setViewDistance 2500;
+setTerrainGrid 20;
+ 
+dayz_paraSpawn = false;
+/* Default Loadout */
+DefaultMagazines = ["ItemBandage","ItemBandage","17Rnd_9x19_glock17","17Rnd_9x19_glock17","ItemPainkiller"];
+DefaultWeapons = ["glock17_EP1","ItemFlashlight","ItemMap","ItemToolbox"];
+DefaultBackpack = "DZ_Patrol_Pack_EP1";
+DefaultBackpackWeapon = "";
+/* End Default Loadout */
 dayz_minpos = -1; 
 dayz_maxpos = 16000;
-
-dayz_sellDistance_vehicle = 10;
+dayz_sellDistance_vehicle = 20;
 dayz_sellDistance_boat = 30;
 dayz_sellDistance_air = 40;
-
 dayz_maxAnimals = 5; // Default: 8
 dayz_tameDogs = true;
 DynamicVehicleDamageLow = 0; // Default: 0
 DynamicVehicleDamageHigh = 100; // Default: 100
-
 DZE_BuildOnRoads = false; // Default: False
-
+DZE_ForceNameTagsInTrader  = true;
 EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
 dayz_fullMoonNights = true;
-
-
-DZE_ConfigTrader = true;
-DZE_AsReMix_PLAYER_HUD = true; //Open Custom 	AsReMix Player HUD
-
 //Load in compiled functions
 call compile preprocessFileLineNumbers "init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
 progressLoadingScreen 0.1;
@@ -58,7 +69,9 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\publicEH.sqf";	
 progressLoadingScreen 0.2;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functions_med.sqf";	//Functions used by CLIENT for medical
 progressLoadingScreen 0.4;
+call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";
 call compile preprocessFileLineNumbers "init\compiles.sqf";				//Compile regular functions
+call compile preprocessFileLineNumbers "custom\compiles.sqf";                            //Compile custom compiles
 progressLoadingScreen 0.5;
 call compile preprocessFileLineNumbers "server_traders.sqf";				//Compile trader configs
 progressLoadingScreen 1.0;

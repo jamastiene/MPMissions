@@ -45,15 +45,8 @@ while {true} do
 //	if(AsReMixhud_humanity <= 199) then { AsReMixhud_hmnicon = "<img size='0.8' image='addons\playerhud\icons\As_hmbandit.paa'/>"; };
 	
 	_vitals ctrlSetStructuredText parseText format ["
-		<t size='0.8' align='right'>Zupa - AsRemix</t><br/>
-		<t size='0.9'> %2 %5 </t><img size='0.8' align='right' image='addons\playerhud\icons\As_humanity.paa'/>  <br/> 
 		<t size='0.9'> %3 </t><img size='0.8' align='right' image='addons\playerhud\icons\dollars.paa'/>   <br/>
-		<t size='0.9'> %14 </t><img size='0.8' align='right' image='addons\playerhud\icons\equip_safe_CA.paa'/>   <br/>
-		<t size='0.9'> %10 </t><img size='0.8' align='right' image='addons\playerhud\icons\As_killh.paa'/>  <br/> 
-		<t size='0.9'> %9 </t><img size='0.8' align='right' image='addons\playerhud\icons\As_killb.paa'/>  <br/>
-		<t size='0.9'> %4 </t><img size='0.8' align='right' image='addons\playerhud\icons\As_zkill.paa'/>  <br/>
-	<t size='0.8' align='right'>%13 FPS</t><br/>	
-	<t size='0.8' align='right'>%11h %12min UPTIME</t><br/>",
+		<t size='0.9'> %14 </t><img size='0.8' align='right' image='addons\playerhud\icons\equip_safe_CA.paa'/>   <br/>",
 	AsReMixhud_blood,   //1
 	AsReMixhud_humanity,//2
 	AsReMixhud_headshots,//3
