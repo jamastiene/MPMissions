@@ -110,7 +110,7 @@ if (!isDedicated) then {
 // Zupa - SC
 execVM "gold\init.sqf";
 execVM "gold\addbankmarkers.sqf";
-execVM "custom\safezone.sqf";
+//execVM "custom\safezone.sqf";
 // END Zupa - SC
 
 ///#include "\z\addons\dayz_code\system\REsec.sqf"
