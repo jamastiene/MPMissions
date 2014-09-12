@@ -3,7 +3,7 @@ class Mission
 {
 	addOns[]=
 	{
-		"chernarus",
+			"chernarus",
 		"ca_modules_animals",
 		"dayz_anim",
 		"dayz_code",

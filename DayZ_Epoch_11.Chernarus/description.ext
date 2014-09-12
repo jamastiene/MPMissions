@@ -1,12 +1,10 @@
-#include "CfgLoot\CfgBuildingLoot.hpp"
-
 #include "CfgServerTrader\cfgServerTrader.hpp"
 
 
 respawn = "BASE";
 respawndelay = 5;
-onLoadMission= "DayZ Overpoch Chernarus";
-OnLoadIntro = "Team-C4.fr";
+onLoadMission= "DayZ Epoch Chernarus";
+OnLoadIntro = "Welcome to DayZ Epoch Chernarus";
 OnLoadIntroTime = False;
 OnLoadMissionTime = False;
 disabledAI = true;
@@ -17,7 +15,7 @@ briefing = 0;
 debriefing = 0;
 
 onPauseScript = "";
-loadScreen = "loadimage.jpg";
+loadScreen = "\z\addons\dayz_code\gui\dayz_logo_ca.paa";
 
 class Header
 {
@@ -166,4 +164,4 @@ class RscTitles
 #include "gold\common.hpp"
 #include "gold\bank_dialog.hpp"
 #include "gold\give_player_dialog.hpp"
-#include "custom\snap_pro\snappoints.hpp"
+
