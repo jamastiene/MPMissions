@@ -1,10 +1,11 @@
+#include "CfgLoot\CfgBuildingLoot.hpp"
 #include "CfgServerTrader\cfgServerTrader.hpp"
 
 
 respawn = "BASE";
-respawndelay = 5;
-onLoadMission= "DayZ Epoch Chernarus";
-OnLoadIntro = "Welcome to DayZ Epoch Chernarus";
+respawndelay = 1;
+onLoadMission= "DayZ Overpoch Chernarus";
+OnLoadIntro = "Team-C4.fr";
 OnLoadIntroTime = False;
 OnLoadMissionTime = False;
 disabledAI = true;
@@ -15,7 +16,7 @@ briefing = 0;
 debriefing = 0;
 
 onPauseScript = "";
-loadScreen = "\z\addons\dayz_code\gui\dayz_logo_ca.paa";
+loadScreen = "loadimage.jpg";
 
 class Header
 {
