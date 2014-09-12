@@ -62,7 +62,6 @@ DynamicVehicleDamageLow = 0; // Default: 0
 DynamicVehicleDamageHigh = 40; // Default: 100
 DZE_BuildOnRoads = false; // Default: False
 DZE_ForceNameTags = false;
-DZE_ForceNameTagsOff = true;
 EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
 dayz_fullMoonNights = true;
 //Load in compiled functions
