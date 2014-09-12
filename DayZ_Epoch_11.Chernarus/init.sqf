@@ -41,7 +41,6 @@ dayz_paraSpawn = false;
 MaxAmmoBoxes = 50; 
 MaxMineVeins = 5;
 DZE_StaticConstructionCount = 1;
-DZE_HumanityTargetDistance = 1;
 MaxHeliCrashes= 20;
 //dayZ_UseSteamID = false;
 setViewDistance 2500;
