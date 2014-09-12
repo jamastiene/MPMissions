@@ -23,10 +23,10 @@ enableSentences false;
 spawnShoremode = 1; // Default = 1 (on shore)
 spawnArea= 1500; // Default = 1500
 
-MaxVehicleLimit = 300; // Default = 50
+MaxVehicleLimit = 500; // Default = 50
 MaxDynamicDebris = 150; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
-dayz_maxLocalZombies = 30; // Default = 30 
+dayz_maxLocalZombies = 40; // Default = 30 
 DZE_DeathMsgSide = true;  //Kill message
 DZE_requireplot = 0;  //Pas de plot pole pour la construction
 DZE_GodModeBase = true;  //Script god mod des bases
@@ -41,8 +41,7 @@ dayz_paraSpawn = false;
 MaxAmmoBoxes = 50; 
 MaxMineVeins = 50;
 DZE_StaticConstructionCount = 1;
-DZE_vehicleAmmo = 0; 
-DZE_HumanityTargetDistance = 25;
+DZE_HumanityTargetDistance = 1;
 MaxHeliCrashes= 20;
 //dayZ_UseSteamID = false;
 setViewDistance 2500;
@@ -61,7 +60,7 @@ dayz_sellDistance_air = 40;
 dayz_maxAnimals = 5; // Default: 8
 dayz_tameDogs = true;
 DynamicVehicleDamageLow = 0; // Default: 0
-DynamicVehicleDamageHigh = 100; // Default: 100
+DynamicVehicleDamageHigh = 40; // Default: 100
 DZE_BuildOnRoads = false; // Default: False
 DZE_ForceNameTagsInTrader  = true;
 EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
