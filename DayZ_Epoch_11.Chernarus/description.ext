@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+=======
+#include "CfgLoot\CfgBuildingLoot.hpp"
+#include "CfgServerTrader\cfgServerTrader.hpp"
+
+
+>>>>>>> 3b05db0201e9940c693ac160959afcda1952272b
 respawn = "BASE";
 respawndelay = 5;
-onLoadMission= "DayZ Epoch Chernarus";
-OnLoadIntro = "Welcome to DayZ Epoch Chernarus";
+onLoadMission= "DayZ Overpoch Chernarus";
+OnLoadIntro = "Team-C4.fr";
 OnLoadIntroTime = False;
 OnLoadMissionTime = False;
 disabledAI = true;
@@ -12,7 +19,7 @@ briefing = 0;
 debriefing = 0;
 
 onPauseScript = "";
-loadScreen = "\z\addons\dayz_code\gui\dayz_logo_ca.paa";
+loadScreen = "loadimage.jpg";
 
 class Header
 {
@@ -148,3 +155,17 @@ class DayZ_loadingScreen
 		};
 	};
 };
+<<<<<<< HEAD
+=======
+
+class RscTitles
+{
+#include "addons\playerhud\hud.hpp"
+};
+
+#include "defines.hpp"
+#include "gold\common.hpp"
+#include "gold\bank_dialog.hpp"
+#include "gold\give_player_dialog.hpp"
+#include "custom\snap_pro\snappoints.hpp"
+>>>>>>> 3b05db0201e9940c693ac160959afcda1952272b
