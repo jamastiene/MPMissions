@@ -118,24 +118,7 @@ execVM "custom\safezone.sqf";
 
 //Start Dynamic Weather
 execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
-// Mapping
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\herotrader.sqf";//mapping heros trader 
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\airfield.sqf";// nouvel airfield apres le barrage de pobeda
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\balota.sqf";//extensiond e la ville de balota
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\building.sqf";
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\Infinicity.sqf";
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\lopatino.sqf";
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\NovyLugBase.sqf";
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\skalisty.sqf";//pont de skalisty
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\petrolrig.sqf";//Plateforme petroliere
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\chernoLocoShed.sqf";// Entrepot train cherno
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\heliport.sqf";// Heliport cherno
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\offshore.sqf";// Heliport cherno
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\neafcharlie.sqf";// Krasno airfield improved
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\P_Balota.sqf";// Proofer mapping
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\P_Cherno.sqf";// Proofer mapping
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\P_Electro.sqf";// Proofer mapping
-call compile preProcessFileLineNumbers "\z\addons\dayz_server\mapping\P_Klen.sqf";// Proofer mapping
+
 
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
 
