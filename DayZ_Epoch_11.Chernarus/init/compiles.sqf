@@ -52,9 +52,6 @@ if (!isDedicated) then {
 	};
 
 	player_unlockDoor =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_unlockDoor.sqf";
-	ckc_button     =	compile preprocessFileLineNumbers "ckc\ckc_button.sqf";
-	ckc_upddoor    =        compile preprocessFileLineNumbers "ckc\ckc_upddoor.sqf";
-	ckc_updSafe    =        compile preprocessFileLineNumbers "ckc\ckc_updSafe.sqf";
 	player_changeCombo =		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_changeCombo.sqf";
 
 	player_lockVault =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_lockVault.sqf";
