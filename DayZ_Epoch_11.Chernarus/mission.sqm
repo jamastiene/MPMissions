@@ -3,7 +3,7 @@ class Mission
 {
 	addOns[]=
 	{
-			"chernarus",
+		"chernarus",
 		"ca_modules_animals",
 		"dayz_anim",
 		"dayz_code",
@@ -18,35 +18,7 @@ class Mission
 		"pook_h13",
 		"csj_gyroac",
 		"map_eu",
-		"jetskiyanahuiaddon",
-		"warehouse",
-		"mbg_buildings_3",
-		"mbg_killhouses",
-		"aif_arma1buildings",
-		"mbg_african_buildings",
-		"gms_k98",
-		"RH_m14",
-		"FHQ_Remington",
-		"FHQ_Remington_ammo",
-		"FHQ_Remington_msr",
-		"FHQ_Remington_xm2010",
-		"FHQ_Remington_acr",
-		"FHQ_Remington_rsass",
-		"VILAS_WWP",
-		"VILAS_RW_Forces",
-		"VILAS_WWP_CO",
-		"VILAS_RW_Forces_CO",
-		"ddopp_taserpack",
-		"smk_anims_lite",
-		"MicroAirVehicles",
-		"oz_is_objects",
-		"monaro",
-		"gsc_units_stalker_patch",
-		"american_law_enforcement",
-		"CYBP_Camels_Config",
-		"nissan_350z",
-		"ussr_cheytac",
-		"bb_mercenary"
+		"jetskiyanahuiaddon"
 	};
 	addOnsAuto[]=
 	{
@@ -1326,239 +1298,92 @@ class Mission
 	};
 	class Sensors
 	{
-	items=15;
+		items=5;
 		class Item0
 		{
-			position[]={4053.8501,364.76645,11668.645};
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonebash";
-			expCond="(player distance zonebash) < 100;";
-			expActiv="TitleText[""Now entering trader city Bash"",""PLAIN DOWN""]; canbuild = false; insafezone = true;";
-			expDesactiv="TitleText[""Now leaving trader city Bash"",""PLAIN DOWN""]; canbuild = true; insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		class Item1
-		{
-			position[]={11463.747,317.3078,11349.89};
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zoneklen";
-			expCond="(player distance zoneklen) < 100;";
-			expActiv="TitleText[""Now entering trader city Klen"",""PLAIN DOWN""]; canbuild = false; insafezone = true;";
-			expDesactiv="TitleText[""Now leaving trader city Klen"",""PLAIN DOWN""]; canbuild = true; insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		class Item2
-		{
-			position[]={6344.8081,304.99023,7806.7598};
+			position[]={6325.6772,304.99033,7807.7412};
+			a=100;
+			b=100;
 			activationBy="WEST";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonestary";
 			expCond="(player distance zonestary) < 100;";
-			expActiv="TitleText[""Now entering trader city Stary"",""PLAIN DOWN""]; canbuild = false; insafezone = true;";
-			expDesactiv="TitleText[""Now leaving trader city Stary"",""PLAIN DOWN""]; canbuild = true; insafezone = false;";
+			expActiv="[""trader city Stary"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""trader city Stary"",true,""leave""] spawn player_traderCity;";
 			class Effects
 			{
 			};
-			
 		};
-		class Item3
+		class Item1
 		{
-			position[]={12945.273,209.10101,12751.496};
+			position[]={4063.4226,365.00577,11664.19};
+			a=100;
+			b=100;
 			activationBy="WEST";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
-			name="zonehero";
-			expCond="(player distance zonehero) < 100;";
-			expActiv="TitleText[""Now entering Hero trader area"",""PLAIN DOWN""]; canbuild = false; insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Hero trader area"",""PLAIN DOWN""]; canbuild = true; insafezone = false;";
+			name="zonebash";
+			expCond="(player distance zonebash) < 100;";
+			expActiv="[""trader city Bash"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""trader city Bash"",true,""leave""] spawn player_traderCity;";
 			class Effects
 			{
 			};
 		};
-		class Item4
+		class Item2
 		{
-			position[]={1610.4834,283.97122,7781.9917};
+			position[]={11447.472,317.26886,11364.504};
+			a=100;
+			b=100;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zoneklen";
+			expCond="(player distance zoneklen) < 100;";
+			expActiv="[""trader city Klen"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""trader city Klen"",true,""leave""] spawn player_traderCity;";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={1606.6443,289.70795,7803.5156};
+			a=100;
+			b=100;
 			activationBy="WEST";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
 			name="zonebandit";
 			expCond="(player distance zonebandit) < 100;";
-			expActiv="TitleText[""Now entering Bandit trader area"",""PLAIN DOWN""]; canbuild = false; insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Bandit trader area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
+			expActiv="[""Bandit Trader"",false,""enter""] spawn player_traderCity;";
+			expDesactiv="[""Bandit Trader"",false,""leave""] spawn player_traderCity;";
 			class Effects
 			{
 			};
 		};
-		class Item5
+		class Item4
 		{
-			position[]={5066.8984,338.99176,9729.3574};
+			position[]={12944.227,210.19823,12766.889};
+			a=100;
+			b=100;
 			activationBy="WEST";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
-			name="zoneaircraft";
-			expCond="(player distance zoneaircraft) < 100;";
-			expActiv="TitleText[""Now entering Aircraft trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Aircraft trader area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
+			name="zonehero";
+			expCond="(player distance zonehero) < 100;";
+			expActiv="[""Hero Trader"",false,""enter""] spawn player_traderCity;";
+			expDesactiv="[""Hero Trader"",false,""leave""] spawn player_traderCity;";
 			class Effects
 			{
 			};
 		};
-		class Item6
-		{
-			position[]={1100.69,0,2844.99};
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonewholesale1";
-			expCond="(player distance zonewholesale1) < 50;";
-			expActiv="TitleText[""Now entering Wholesale trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Wholesale trader area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		class Item7
-		{
-			position[]={13247.175,7.9455967,6076.4395};
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonewholesale2";
-			expCond="(player distance zonewholesale2) < 50;";
-			expActiv="TitleText[""Now entering Wholesale trader area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Wholesale trader area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		
-		class Item8
-		{
-			position[]={6772.35,0.103,2494.58};
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonebank1";
-			expCond="(player distance zonebank1) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		
-		class Item9
-		{
-			position[]={10005.678, 0.61099607,1861.6836,  };
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonebank2";
-			expCond="(player distance zonebank2) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		
-		class Item10
-		{
-			position[]={12214.157,  0.61100769,9731.7646  };
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonebank3";
-			expCond="(player distance zonebank3) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		class Item11
-		{
-			position[]={13343.663, 0.61099243,5488.4917 };
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonebank4";
-			expCond="(player distance zonebank4) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		class Item12
-		{
-			position[]={1008.7841, 0.60786343,2218.9775 };
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonebank5";
-			expCond="(player distance zonebank5) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		
-			class Item13
-		{
-			position[]={8666.5801, 0.73773193,6517.2212};
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonebank6";
-			expCond="(player distance zonebank6) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-		
-		class Item14
-		{
-			position[]={3649.0173, 0.73773193,8532.2158};  
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			name="zonebank25";
-			expCond="(player distance zonebank25) < 15;";
-			expActiv="TitleText[""Now entering Banking area"",""PLAIN DOWN""]; canbuild = false;insafezone = true;";
-			expDesactiv="TitleText[""Now leaving Banking area"",""PLAIN DOWN""]; canbuild = true;insafezone = false;";
-			class Effects
-			{
-			};
-		};
-	
 	};
 };
 class Intro
