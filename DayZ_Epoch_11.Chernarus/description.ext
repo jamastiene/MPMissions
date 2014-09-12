@@ -166,6 +166,3 @@ class RscTitles
 #include "gold\bank_dialog.hpp"
 #include "gold\give_player_dialog.hpp"
 #include "custom\snap_pro\snappoints.hpp"
-#include "ckc\ckc_defines.hpp"
-#include "ckc\ckc_ui.hpp"
-#include "ckc\ckc_SafeUI.hpp"
